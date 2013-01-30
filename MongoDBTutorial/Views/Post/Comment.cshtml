@@ -1,0 +1,10 @@
+﻿@model Core.Domain.Comment
+
+<div>
+    <strong>By @Model.Author at @Model.Date.ToLocalTime().ToString()</strong>
+    (<a class="remove-comment" data-id="@Model.CommentId" href="javascript:void()">Remove</a>)
+    
+    <p>
+        @Model.Detail
+    </p>
+</div>

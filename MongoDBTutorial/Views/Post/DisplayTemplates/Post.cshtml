@@ -1,0 +1,23 @@
+﻿@model Core.Domain.Post
+
+<div>
+    <h3>@Html.ActionLink(Model.Title, "Detail", new { id = Model.Url })</h3>
+        
+    <p>
+        <em>Posted at @Model.Date.ToLocalTime().ToString() by @Model.Author</em>
+    </p>
+
+    <p>
+        @Model.Summary
+    </p>
+
+    <p>
+        (@Model.TotalComments comments)
+    </p>
+
+    <p>
+        @Html.ActionLink("Delete Post", "Delete", new { id = Model.PostId })
+        |
+        @Html.ActionLink("Edit Post", "Update", new { id = Model.Url })
+    </p>
+</div>

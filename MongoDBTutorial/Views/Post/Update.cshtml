@@ -1,0 +1,18 @@
+﻿@model Core.Domain.Post
+
+@{
+    ViewBag.Title = "Update";
+}
+
+<h2>Update</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.ValidationMessage("ConcurrencyError")
+    @Html.HiddenFor(m => m.PostId);
+    @Html.EditorForModel()
+
+    <p>
+        <input type="submit" value="Update" />
+    </p>
+}

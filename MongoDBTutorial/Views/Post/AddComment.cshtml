@@ -1,0 +1,14 @@
+﻿@model Core.Domain.Comment
+
+@using (Html.BeginForm("AddComment", "Post", FormMethod.Post))
+{   
+    <input name="postId" type="hidden" value="@ViewBag.PostId" />
+    <div>
+        Add Comment
+        <br />
+        @Html.TextAreaFor(m => m.Detail)
+        @Html.ValidationMessageFor(m => m.Detail)
+        <br />
+        <input type="submit" value="Add Comment" />
+    </div>
+}

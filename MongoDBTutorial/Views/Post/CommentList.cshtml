@@ -1,0 +1,13 @@
+﻿@model IList<Core.Domain.Comment>
+           
+@foreach (var comment in Model)
+{
+    Html.RenderPartial("Comment", comment);
+}
+
+@if (ViewBag.TotalComments > ViewBag.LoadedComments)
+{
+    <div style="margin-bottom: 20px;">
+        <a id="load-more" data-loadedComments="@ViewBag.LoadedComments" href="javascript:void(0)">Load more...</a>
+    </div>
+}

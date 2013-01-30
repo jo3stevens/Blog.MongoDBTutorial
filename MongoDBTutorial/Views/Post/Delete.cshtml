@@ -1,0 +1,20 @@
+﻿@model Core.Domain.Post
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<p>
+    Are you sure you want to delete this post?
+</p>
+
+<h2>@Model.Title</h2>
+
+@using (Html.BeginForm())
+{
+    <input type="submit" value="Delete" />
+}
+
+@Html.ActionLink("Back to posts", "Index")

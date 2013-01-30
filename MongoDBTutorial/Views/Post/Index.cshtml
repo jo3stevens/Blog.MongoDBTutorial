@@ -1,0 +1,15 @@
+﻿@model IList<Core.Domain.Post>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Posts</h2>
+
+@*@Html.Partial("PostMenu")*@
+
+<p>
+    @Html.ActionLink("New Post", "Create")
+</p>
+
+@Html.DisplayForModel()
