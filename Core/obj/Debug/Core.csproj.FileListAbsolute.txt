@@ -29,3 +29,14 @@ C:\Users\joseph.stevens\Documents\Visual Studio 2012\Projects\MongoDBTutorial\Co
 C:\Users\joseph.stevens\Documents\Visual Studio 2012\Projects\MongoDBTutorial\Core\obj\Debug\Core.csprojResolveAssemblyReference.cache
 C:\Users\joseph.stevens\Documents\Visual Studio 2012\Projects\MongoDBTutorial\Core\obj\Debug\Core.dll
 C:\Users\joseph.stevens\Documents\Visual Studio 2012\Projects\MongoDBTutorial\Core\obj\Debug\Core.pdb
+D:\Projects\Blog.MongoDBTutorial\Core\bin\Debug\Core.dll
+D:\Projects\Blog.MongoDBTutorial\Core\bin\Debug\Core.pdb
+D:\Projects\Blog.MongoDBTutorial\Core\bin\Debug\MongoDB.Bson.dll
+D:\Projects\Blog.MongoDBTutorial\Core\bin\Debug\MongoDB.Driver.dll
+D:\Projects\Blog.MongoDBTutorial\Core\bin\Debug\MongoDB.Bson.pdb
+D:\Projects\Blog.MongoDBTutorial\Core\bin\Debug\MongoDB.Bson.xml
+D:\Projects\Blog.MongoDBTutorial\Core\bin\Debug\MongoDB.Driver.pdb
+D:\Projects\Blog.MongoDBTutorial\Core\bin\Debug\MongoDB.Driver.xml
+D:\Projects\Blog.MongoDBTutorial\Core\obj\Debug\Core.csprojResolveAssemblyReference.cache
+D:\Projects\Blog.MongoDBTutorial\Core\obj\Debug\Core.dll
+D:\Projects\Blog.MongoDBTutorial\Core\obj\Debug\Core.pdb
