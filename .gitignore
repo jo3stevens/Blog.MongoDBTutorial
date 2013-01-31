@@ -1,2 +1,4 @@
 packages/
 _ReSharper.MongoDBTutorial/
+MongoDBTutorial/bin/
+Core/bin/
